@@ -7,7 +7,7 @@ function App() {
     useEffect(() => {
         axios({
             method: 'get',
-            url: 'http://localhost:3000/api/users'
+            url: 'http://15.164.50.250:3000/api/users'
         })
         .then(function (res) {
             console.log('res', res);
